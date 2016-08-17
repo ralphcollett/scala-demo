@@ -14,7 +14,7 @@ public class BankAccountOO {
     balance -= amount;
   }
 
-  public boolean inTheRed() {
-    return balance < 0;
+  public int getBalance() {
+    return balance;
   }
 }
